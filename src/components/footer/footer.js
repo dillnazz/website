@@ -4,6 +4,8 @@ const footer = () => {
   return (
     <div>footer
       <h1>Whatsapp</h1>
+      <h1>INSTARGRAM</h1>
+
     </div>
   )
 }
