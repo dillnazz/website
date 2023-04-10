@@ -1,0 +1,258 @@
+
+
+.header-text{
+ text-align: center;
+ padding-top: 20rem;
+ font-weight: 700;
+ color: #fff;
+ font-size: 64px;
+ line-height: 72.08px;
+} 
+.text-header{
+    color: #FA9801;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    text-align: center;
+    padding-top: 77px;
+}
+.div-section{
+    display: flex;
+    justify-content: center;
+}
+.btn-section{
+    display: flex;
+    background-color: #FA9801;
+    border: none;
+    border-radius: 22px;
+    height: 50px;
+    width: 200px;
+    margin-top: 25px;
+}
+
+ .right {
+    margin: auto;
+    margin-left: 30px;
+}
+.textHeader{
+    color: white;
+    margin-left: 31px;
+    margin-top: 16px;
+}
+  .wrapper-section{
+
+    background-color: aliceblue;
+    width: 360px;
+    height: 300px;
+    padding:25px;
+    padding-left: 40px;
+    border-radius: 22px;
+} 
+
+.wrapper-section p  {
+  padding-left: 20px;
+  font-size: 26px;
+  font-weight: 400;
+  padding: 20px;
+}
+.wrapper-section button {
+    margin-top: -50px;
+    padding: 10px;
+    
+    margin: 20px;
+    /* height: 60px;
+    width: 80px; */
+    border-radius: 20px;
+    border: none;
+}
+.box { 
+    margin-top: 7rem;
+    background-color: aliceblue;
+    width: 360px;
+    height: 300px;
+    padding:25px;
+    padding-left: 40px;
+    border-radius: 22px;
+
+}
+.box button {
+    /* margin-top:20px; */
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.boxes {
+    padding-top:4rem;
+    flex-wrap: wrap;
+    display: flex;
+}  
+.boxesss {
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box p{
+    padding-left: 20px;
+  font-size: 26px;
+  font-weight: 400;
+  padding: 20px;
+}
+.text-h2{
+    color: #FA9801;
+    font-family: "Monserrat";
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    font-style: normal;
+    line-height: 39px;
+    padding-top: 20px;
+}
+
+/* scrolll */
+
+.scroll-wrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+ /* scrolll  */
+
+
+.wrapper-partnery {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.h2-portnery {
+    color: #FA9801;
+}
+.pather-photo{
+    width: 200px;
+
+}
+.pather-super {
+    width: 90px;
+}
+.pather-wrapper {
+   
+    margin-top: 40px;
+}
+.pather-section{
+    display: flex;
+    justify-content:center;
+    gap: 20rem;
+}
+
+.accardion-text {
+    text-align: center;
+    font-weight: 700;
+    color: #FA9801;
+}
+
+.accardion-section {
+    margin-top: 100px;
+}
+
+
+/* ====================================================== */
+
+/* .accordion{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.accardion2-boxess {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+} */
+
+/* ========================================================= */
+
+
+.accordion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 100px;
+    
+}
+
+.block-acardion-1{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.block-acardion-2{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+}
+
+.line{
+    margin-top: 20px;
+    width: 4px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 11px;
+}
+
+/* master - section */
+
+.master-section {
+    height: 700px;
+    background: url(../img/image006-1-e1636105442894\ 1.png);
+    background-size: cover;
+}
+
+.master-wrapper {
+    margin-top: 100px;
+}
+
+.master-text{
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Monserrat';
+    line-height: 60.95px;
+}
+
+.master-phka {
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 110px;
+}
+
+.master-time {
+    color: #fff;
+}
+.timeText {
+    display: flex;
+    color: #FA9801;
+}
+.time {
+    font-size: 80px;
+    width:404px;
+    height: 98px;
+    color: #FA9801;
+    margin-left: 130px;
+}
+
+/* ================================ */
+
+.time-and-inputForm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
