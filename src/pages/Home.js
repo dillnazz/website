@@ -357,7 +357,6 @@ const Home = () => {
 
       {/* master - class TheEnd */}
 
-      
     </div>
   );
 };

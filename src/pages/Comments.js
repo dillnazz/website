@@ -5,7 +5,6 @@ const Comments = () => {
     <div>
       <div className='container'>
       Comments page
-
       </div>
     </div>
   )

@@ -7,7 +7,6 @@ const Teachers = () => {
     <div>
       <div className='container'>
       Teachers page
-
       </div>
     </div>
   )
