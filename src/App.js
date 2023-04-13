@@ -1,10 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import Header from "./components/Header/Header.jsx";
-import About from "./pages/About";
-import Comments from "./pages/Comments";
-import Course from "./pages/Course";
-import Home from "./pages/Home";
-import Teachers from "./pages/Teachers";
+import About from "./pages/About/About.jsx";
+import Comments from "./pages/Comments/Comments.jsx";
+import Course from "./pages/Course/Course.jsx";
+import Home from "./pages/Home/Home.jsx";
+import Teachers from "./pages/Teachers/Teachers.jsx";
 import './index.css'
 import Layout from "./components/Layout/Layout.jsx";
 
@@ -14,7 +13,7 @@ const App = () => {
     <div style={{fontFamily: 'Montserrat, sans-serif'}}>
       <Routes>
         <Route path="/" element={<Layout/>}>
-          <Route index element={<Home />} />
+          <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="comments" element={<Comments />} />
           <Route path="course" element={<Course />} />

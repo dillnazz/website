@@ -1,8 +1,16 @@
-
+.header1 {
+  background-image: url('./image/photo-1555066931-bf19f8fd1085.avif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #292525cf;
+  padding-bottom: 102px;
+}
 
 .header-text{
  text-align: center;
- padding-top: 20rem;
+ padding-top: 198px;
  font-weight: 700;
  color: #fff;
  font-size: 64px;
@@ -209,7 +217,7 @@
 
 .master-section {
     height: 700px;
-    background: url(../img/image006-1-e1636105442894\ 1.png);
+    background: url(../../img/image006-1-e1636105442894\ 1.png);
     background-size: cover;
 }
 

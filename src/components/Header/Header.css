@@ -1,8 +1,27 @@
-.header {
-    background: url(../../img/bg-section\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 848px;
+.header{
+    width: 100%;
+    align-items: center;
+ 
+
+}
+
+.block_header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+.logo> img{
+    width: 80px;
+    align-items: center;
+
+}
+
+ ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
 }
 
 

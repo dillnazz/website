@@ -1,33 +1,27 @@
-import React from 'react';
-import Logo from '../../img/okurmen-logo 1.png';
+import React from "react";
+import { Link } from "react-router-dom";
+import Logo from "./okurmen-logo 1.png";
 
-import './Header.css';
+import "./Header.css";
 
 const Header = () => {
   return (
-        <div className="container">
-            <div className='header-wrapper'>
-        <div className="logo">
+    <header className="header">
+      <div className="container">
+        <div className="block_header">
+          <div className="logo">
             <img src={Logo} alt="" />
+          </div>
+          <nav>
+            <Link to="/home">Главная</Link>
+            <Link to="/course">Курсы</Link>
+            <Link to="/teachers">Преподавател</Link>
+            <Link to="/about">О нас</Link>  
+          </nav>
         </div>
-
-        <nav className='nav'>
-            <ul> 
-                <li>Башкы бет</li>
-                <li>Курстар</li>
-                <li>Мугалимдер</li>
-                <li>Окурмен</li>
-                <li>Отзыв</li>
-                <li>Контакт</li>
-            </ul>
-        </nav>
-
-            <header className='header'>
-                <div>ff</div>    
-            </header>                                                                                
-            </div>
-        </div>
-  )
+      </div>
+    </header>
+  );
 };
 
 export default Header;

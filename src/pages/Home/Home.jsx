@@ -1,18 +1,17 @@
 import React from "react";
-import Right from "../img/Vector.png";
+import Right from "../../img/Vector.png";
 import { Form, Link } from "react-router-dom";
-import Goo from "../img/photo1680775315.jpeg";
-import Goo1 from "../img/photo1680775297-removebg-preview.png";
-import Goo2 from "../img/photo1680775326.jpeg";
-import Goo3 from "../img/photo1680775344-removebg-preview.png";
-import Goo4 from "../img/photo1680775336-removebg-preview.png";
-import Goo5 from "../img/photo1680775306.jpeg";
-import Scrol from "../img/img2 1.png";
-import Scrol1 from "../img/ProgrammingIllustration.png";
+import Goo from "../../img/photo1680775315.jpeg";
+import Goo1 from "../../img/photo1680775297-removebg-preview.png";
+import Goo2 from "../../img/photo1680775326.jpeg";
+import Goo3 from "../../img/photo1680775344-removebg-preview.png";
+import Goo4 from "../../img/photo1680775336-removebg-preview.png";
+import Goo5 from "../../img/photo1680775306.jpeg";
+import Scrol from "../../img/img2 1.png";
 // import Scrol2 from "../img/img3 1.png";
-import Pather from "../img/superkg 1.png";
-import Pather1 from "../img/bai-removebg-preview 1.png";
-import Pather2 from "../img/sugma 1.png";
+import Pather from "../../img/superkg 1.png";
+import Pather1 from "../../img/bai-removebg-preview 1.png";
+import Pather2 from "../../img/sugma 1.png";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
@@ -20,8 +19,8 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "./Home.css";
 
-import Time from "./Time";
-import InputForm from "./InputForm";
+import Time from "../ui/Time/Time";
+import InputForm from "../ui/InputForm/InputForm";
 
 const Home = () => {
 
@@ -30,8 +29,8 @@ const Home = () => {
   return (
     <div>
       <div className="zazor">
-        <div className="container">
-          <header className="header">
+        <div className="header1">
+          <div className="container">
             <div className="wrapper-header">
               <h1 className="header-text">
                 ОкурМенден IT-ни уйронуп, <br /> жашоонду озгорт
@@ -47,7 +46,7 @@ const Home = () => {
                 </button>
               </div>
             </div>
-          </header>
+          </div>
         </div>
       </div>
       {/* header - TheEnd */}
