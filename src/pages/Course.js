@@ -4,7 +4,7 @@ const Course = () => {
   return (
     <div>
       <div className='container'>
-      Course page
+        bsvl;m . dfs
 
       </div>
     </div>

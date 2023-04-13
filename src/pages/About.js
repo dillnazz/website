@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div>
       <div className='container'>
-      About page
-
+      About page\
+      
       </div>
     </div>
 

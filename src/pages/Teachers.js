@@ -6,7 +6,7 @@ const Teachers = () => {
   return (
     <div>
       <div className='container'>
-      Teachers page
+        dbkg m;kmbd;km ;kbs;kmmbk;mvk;lmdf;mk;
       </div>
     </div>
   )

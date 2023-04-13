@@ -1,13 +1,12 @@
-.header{
-    /* background: url(../img/bg-section\ 1.png);
-    height: 848px; */
-}
-.zazor {
-    background: url(../img/bg-section\ 1.png);
+.header {
+    background: url(../../img/bg-section\ 1.png);
+    background-repeat: no-repeat;
     background-size: cover;
     height: 848px;
 }
-.nav {
+
+
+ /* .nav {
     display: flex;
     justify-content: end;
     
@@ -40,7 +39,6 @@ li::after {
     width: 0;
     top: 20px;
     left: 0;
-    /* bottom: -4px; */
     transition: 0.3s;
 }
 
@@ -49,20 +47,19 @@ li:hover:after {
 }
 li:hover {
     color: black;
-}
+}  */
 
 
-/* Footer - wrapper */
+ /* Footer - wrapper  */
 
-.footer {
+/* .footer {
     background-color: #E6E6E6;
 }
 
 .footer-wrapper {
     padding-top: 100px;
-    /* padding-bottom: 100px; */
-}
-
+}  */
+/* 
 .footer-2gis {
     margin-top: -11px;
 }
@@ -75,11 +72,10 @@ li:hover {
 .footer-control{
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
     justify-content: space-between;
-}
+}  */
 
-.tire {
+/* .tire {
     width: 4px;
     height: 300px;
     background: #FFFFFF;
@@ -92,13 +88,11 @@ li:hover {
     font-size: 32px;
     line-height: 39px;
     padding-left: 12px;
-}
+} */
 
-.footer-right {
-        /* margin-left: 100px; */
-}
 
-.phone {
+
+/* .phone {
     margin-bottom: 57px;
 }
 .instagram {
@@ -118,4 +112,4 @@ li:hover {
     padding-left: 20px;
     font-size: 20px;
     font-weight: 400;
-}
+} */
