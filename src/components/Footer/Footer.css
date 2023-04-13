@@ -1,0 +1,25 @@
+.container {
+    margin-top: 52px;
+}
+.footer-head {
+    display: flex;
+}
+.fotHead-p {
+    width: 183px;
+    height: 39px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+.block-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.div-a {
+    margin-top: 50px;
+}
+span {
+    font-size: 19px;
+}
